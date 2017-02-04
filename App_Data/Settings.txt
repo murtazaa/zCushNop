@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=zcush.database.windows.net;Initial Catalog=zcush;Integrated Security=False;Persist Security Info=False;User ID=zcush;Password=godri786!!)
