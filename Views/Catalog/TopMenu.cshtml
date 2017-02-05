@@ -36,7 +36,6 @@
         }
     </li>
 }
-
 <ul class="top-menu">
     @Html.Widget("header_menu_before")
     @{
@@ -49,7 +48,7 @@
     @foreach (var topic in Model.Topics)
     {
         <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
-    }
+    } 
     @if (rootCategories.Count == 0 && Model.Topics.Count == 0)
     {
         //no categories or topis to display? in this case let's diplay some default menu items (should we?)
