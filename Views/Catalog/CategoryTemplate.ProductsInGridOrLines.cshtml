@@ -19,7 +19,7 @@
 @using Nop.Core.Infrastructure;
 @using Nop.Web.Models.Catalog;
 @*category breadcrumb*@
-@section Breadcrumb
+@*@section Breadcrumb
 {
     @if (Model.DisplayCategoryBreadcrumb)
     {
@@ -48,11 +48,11 @@
         </div>
         @Html.Widget("categorydetails_after_breadcrumb", Model.Id)
     }
-}
+}*@
 <div class="page category-page">
-    <div class="page-title">
+    @*<div class="page-title">
         <h1>@Model.Name</h1>
-    </div>
+    </div>*@
     <div class="page-body">
         @Html.Widget("categorydetails_top", Model.Id)
         @*description*@
