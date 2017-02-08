@@ -6626,6 +6626,7 @@ pre {
     .master-wrapper-content {
         width: 980px;
         margin: auto;
+        margin-top: 75px;
     }
 
     .center-2 {
@@ -7495,7 +7496,7 @@ pre {
 
 
     .master-wrapper-content {
-        width: 1200px;
+        /*width: 1200px;*/
     }
 
     .inputs label {
