@@ -68,7 +68,13 @@ script {
 
 /*********** GLOBAL STYLES **********/
 
+ .bold {
+    font-weight:600;
+}
 
+.center {
+    text-align:center;
+}
 
 body {
     max-width: 100%;
