@@ -145,8 +145,8 @@
                     @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
                     @Html.Partial("_ProductTags", Model.ProductTags)
                 </div>
-                @Html.Action("ProductsAlsoPurchased", "Product", new { productId = Model.Id })
-                @Html.Action("RelatedProducts", "Product", new { productId = Model.Id })
+                @*@Html.Action("ProductsAlsoPurchased", "Product", new { productId = Model.Id })
+                @Html.Action("RelatedProducts", "Product", new { productId = Model.Id })*@
             </div>
         }
         @Html.Widget("productdetails_bottom", Model.Id)
