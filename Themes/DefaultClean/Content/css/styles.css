@@ -876,6 +876,7 @@ label, label + * {
 
 .search-box form {
     display: inline-block;
+    margin-top:10px;
 }
 
     .search-box form:after {
@@ -6910,7 +6911,6 @@ pre {
         /*display: table-cell;*/
         text-align: right;
         vertical-align: middle;
-        margin-top:10px;
     }
 
         .search-box input.search-box-text,
