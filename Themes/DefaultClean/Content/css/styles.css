@@ -76,6 +76,10 @@ script {
     text-align:center;
 }
 
+.bottom-margin-minus-10{
+    margin-bottom:-10px;
+}
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -6632,7 +6636,7 @@ pre {
     .master-wrapper-content {
         width: 980px;
         margin: auto;
-        margin-top: 75px;
+        /*margin-top: 75px;*/
     }
 
     .center-2 {
