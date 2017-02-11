@@ -6907,9 +6907,10 @@ pre {
     }
 
     .search-box {
-        display: table-cell;
+        /*display: table-cell;*/
         text-align: right;
         vertical-align: middle;
+        margin-top:10px;
     }
 
         .search-box input.search-box-text,
