@@ -84,7 +84,7 @@
                 }
                 @if (!Model.ProductPrice.DisableAddToCompareListButton)
                 {
-                    <input type="button" value="@T("ShoppingCart.AddToCompareList")" title="@T("ShoppingCart.AddToCompareList")" class="button-2 add-to-compare-list-button" onclick="AjaxCart.addproducttocomparelist('@addtocomparelink');return false;" />
+                    @*<input type="button" value="@T("ShoppingCart.AddToCompareList")" title="@T("ShoppingCart.AddToCompareList")" class="button-2 add-to-compare-list-button" onclick="AjaxCart.addproducttocomparelist('@addtocomparelink');return false;" />*@
                 }
                 @if (!Model.ProductPrice.DisableWishlistButton)
                 {
