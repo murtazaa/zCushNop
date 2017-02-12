@@ -1599,6 +1599,7 @@ label, label + * {
 
     .item-box .details {
         padding: 0 10px;
+        text-align:center;
     }
 
     .item-box .product-title {
@@ -7155,7 +7156,7 @@ pre {
     }
 
     .item-box .buttons {
-        text-align: left;
+        /*text-align: left;*/
     }
 
     .home-page .product-grid .item-box,
