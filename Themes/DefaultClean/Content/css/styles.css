@@ -983,7 +983,7 @@ label, label + * {
 }
 
 .footer-block {
-    width: 95%;
+    /*width: 95%;*/
     margin: 1px auto;
     text-align: left;
     font-size: 14px; /*reset zeroing*/
@@ -1032,9 +1032,9 @@ label, label + * {
     }
 
     .follow-us .social ul {
-        margin: 0 0 30px;
-        border-bottom: 1px solid #ddd;
-        padding: 0 0 30px;
+        /*margin: 0 0 30px;*/
+        /*border-bottom: 1px solid #ddd;*/
+        /*padding: 0 0 30px;*/
         font-size: 0;
     }
 
@@ -5856,7 +5856,7 @@ pre {
 
 
     .footer-block {
-        width: 85%;
+        /*width: 85%;*/
     }
 
     .newsletter-email input[type="text"] {
@@ -6026,7 +6026,7 @@ pre {
 
     .footer-block {
         display: inline-block;
-        width: 25.33333%;
+        /*width: 25.33333%;*/
         margin: 0 4%;
         vertical-align: top;
     }
@@ -7032,8 +7032,8 @@ pre {
         }
 
     .footer-block {
-        float: left;
-        width: 220px;
+        /*float: left;*/
+        /*width: 220px;*/
         margin: 0;
     }
 
@@ -7045,7 +7045,7 @@ pre {
         }
 
     .follow-us {
-        float: right;
+        /*float: right;*/
         width: 300px !important;
         margin: 0;
         text-align: left;
@@ -7553,7 +7553,7 @@ pre {
     }
 
     .footer-block {
-        width: 280px;
+        /*width: 280px;*/
     }
 
     .footer-lower {
