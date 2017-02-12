@@ -2,7 +2,7 @@
 @using Nop.Web.Models.Catalog;
 @if ((Model.FreeShippingNotificationEnabled && Model.IsFreeShipping) || !String.IsNullOrWhiteSpace(Model.DeliveryDate))
 {
-    <div class="delivery">
+    @*<div class="delivery">
         @if (Model.FreeShippingNotificationEnabled && Model.IsFreeShipping)
         {
             <div class="free-shipping">@T("Products.FreeShipping")</div>
@@ -14,5 +14,5 @@
                 <span class="value">@Model.DeliveryDate</span>
             </div>
         }
-    </div>
+    </div>*@
 }

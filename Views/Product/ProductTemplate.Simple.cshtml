@@ -133,18 +133,18 @@
                         @Html.Partial("_ShareButton", Model)
                         @Html.Widget("productdetails_overview_bottom", Model.Id)
                     </div>
-                    @if (!String.IsNullOrEmpty(Model.FullDescription))
+                    @*@if (!String.IsNullOrEmpty(Model.FullDescription))
                     {
                         <div class="full-description" itemprop="description">
                             @Html.Raw(Model.FullDescription)
                         </div>
-                    }
+                    }*@
                 </div>
-                @Html.Widget("productdetails_before_collateral", Model.Id)
+                @*@Html.Widget("productdetails_before_collateral", Model.Id)
                 <div class="product-collateral">
                     @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
                     @Html.Partial("_ProductTags", Model.ProductTags)
-                </div>
+                </div>*@
                 @*@Html.Action("ProductsAlsoPurchased", "Product", new { productId = Model.Id })
                 @Html.Action("RelatedProducts", "Product", new { productId = Model.Id })*@
             </div>
