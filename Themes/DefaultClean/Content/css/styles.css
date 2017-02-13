@@ -80,6 +80,10 @@ script {
     margin-bottom:-10px;
 }
 
+.margin-top-20{
+    margin-top:20px;
+}
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -4562,6 +4566,19 @@ label, label + * {
     line-height: 22px;
 }
 
+.award-items{
+    margin-top:30px;
+}
+
+.award-item{
+    display:inline;
+    margin: 20px 40px;
+}
+
+.award-item img{
+    vertical-align:top;
+}
+
 .blog-page .tags,
 .blogpost-page .tags {
     margin: 0 0 15px;
@@ -4755,7 +4772,7 @@ label, label + * {
 }
 
 .news-list-homepage {
-    margin: 0 0 75px;
+    margin: 0 0 50px;
 }
 
     .news-list-homepage .title {
