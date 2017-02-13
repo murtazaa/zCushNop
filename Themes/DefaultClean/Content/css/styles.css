@@ -813,6 +813,7 @@ label, label + * {
 }
 
 .header-links {
+    text-align:right;
 }
 
     .header-links ul {
@@ -843,6 +844,7 @@ label, label + * {
     margin: 10px auto 0;
     background-color: #f6f6f6;
     padding: 0 20px;
+    text-align:center;
 }
 
     #topcartlink a {
