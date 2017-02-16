@@ -4566,17 +4566,14 @@ label, label + * {
     line-height: 22px;
 }
 
-.award-items{
-    margin-top:30px;
-}
-
 .award-item{
     display:inline;
-    margin: 20px 40px;
+    margin: 0 70px;
 }
 
 .award-item img{
-    vertical-align:top;
+    margin-top:20px;
+    vertical-align:middle;
 }
 
 .blog-page .tags,
