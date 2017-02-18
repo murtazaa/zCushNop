@@ -1,7 +1,7 @@
 ﻿@model CheckoutShippingAddressModel
 @using Nop.Web.Models.Checkout;
 <div class="checkout-data">
-    @if (Model.AllowPickUpInStore)
+    @*@if (Model.AllowPickUpInStore)
         {
             <div class="section pickup-in-store">
                 <p class="selector">
@@ -17,7 +17,7 @@
                 </p>
                 <p class="description"><i>@T("Checkout.PickUpInStore.Description")</i></p>
             </div>
-        }
+        }*@
     <div class="shipping-addresses" id="shipping-addresses-form">
         @Html.Widget("op_checkout_shipping_address_top")
         @if (Model.ExistingAddresses.Count > 0)
